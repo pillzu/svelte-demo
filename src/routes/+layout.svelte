@@ -9,7 +9,7 @@
 		</li>
 
 		<li>
-			<a href="/posts">posts</a>
+			<a href="/posts">Posts</a>
 		</li>
 	</ul>
 </nav>
