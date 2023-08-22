@@ -1,21 +1,13 @@
-<script>
-	import { page } from '$app/stores'
-	import '../app.css'
-</script>
-
-<svelte:head>
-	<title>{$page.data.post?.title}</title>
-</svelte:head>
-<nav>
-	<ul>
-		<li>
-			<a href="/">Home</a>
-		</li>
-
-		<li>
-			<a href="/posts">Posts</a>
-		</li>
-	</ul>
-</nav>
-
 <slot />
+
+<style>
+	@import 'https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css';
+
+	:global(body) {
+		padding: 2em;
+	}
+
+	:global(input, button) {
+		border-radius: 1rem;
+	}
+</style>
